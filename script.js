@@ -25,7 +25,7 @@ let continent = "Africa";
 let population = 200;
 
 console.log(country, continent, population);
-*/
+
 //Data types
 
 //Number
@@ -57,3 +57,17 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear  = 1990;
+
+// const job;
+var job = 'programmer';
+job = "teacher";
+
+lastName = "Aina";
+console.log(lastName);
