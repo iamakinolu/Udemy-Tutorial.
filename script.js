@@ -71,7 +71,7 @@ job = "teacher";
 
 lastName = "Aina";
 console.log(lastName);
-*/
+
 
 const now = 2027;
 const ageAkin = now - 2003;
@@ -103,3 +103,32 @@ const isFullAge = ageNia >= 18;
 
 console.log(now - 1991 > now - 2018)
 
+const now = 2027;
+const ageAkin = now - 2003;
+const ageNia = now - 2005;
+
+console.log(now - 1991 > now - 2018)
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5; //x = y = 10, x = 10;
+console.log(x, y);
+
+const averageAge = (ageAkin + ageNia) / 2;
+console.log(ageAkin, ageNia, averageAge);
+*/
+
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark) ;
+const BMIJohn = massJohn / (heightJohn * heightJohn) ;
+
+console.log(BMIMark, BMIJohn);
+
+
+const markHigherBMI = (BMIMark > BMIJohn);
+console.log(markHigherBMI);
