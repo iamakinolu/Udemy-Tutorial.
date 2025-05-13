@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 console.log("JONAS");
@@ -25,7 +25,7 @@ let continent = "Africa";
 let population = 200;
 
 console.log(country, continent, population);
-
+*/
 //Data types
 
 //Number
@@ -35,3 +35,25 @@ console.log(country, continent, population);
 //Null
 //Symbol
 //BigInt
+
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+// console.log(typeof true);
+console.log(typeof javascriptIsFun);
+// console.log(typeof 1);
+// console.log(typeof 'Jonas');
+
+javascriptIsFun = "YES!";
+console.log(typeof javascriptIsFun);
+
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null);
