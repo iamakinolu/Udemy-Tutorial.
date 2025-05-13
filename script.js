@@ -117,7 +117,7 @@ console.log(x, y);
 
 const averageAge = (ageAkin + ageNia) / 2;
 console.log(ageAkin, ageNia, averageAge);
-*/
+
 
 const massMark = 78;
 const massJohn = 92;
@@ -127,8 +127,27 @@ const heightJohn = 1.95;
 const BMIMark = massMark / (heightMark * heightMark) ;
 const BMIJohn = massJohn / (heightJohn * heightJohn) ;
 
-console.log(BMIMark, BMIJohn);
-
-
 const markHigherBMI = (BMIMark > BMIJohn);
-console.log(markHigherBMI);
+console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
+
+const firstName = 'Akinolu';
+const job = 'Developer';
+const birthYear = 2003;
+const year = 2027
+
+const Akin = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + "!" ;
+console.log(Akin);
+
+const akinNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(akinNew);
+
+console.log(`Just a regular string...`)
+
+console.log ('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
