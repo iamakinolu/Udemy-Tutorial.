@@ -129,7 +129,7 @@ const BMIJohn = massJohn / (heightJohn * heightJohn) ;
 
 const markHigherBMI = (BMIMark > BMIJohn);
 console.log(BMIMark, BMIJohn, markHigherBMI);
-*/
+
 
 const firstName = 'Akinolu';
 const job = 'Developer';
@@ -151,3 +151,26 @@ lines');
 console.log(`String
 multiple
 lines`);
+*/
+
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log("Nia can start driving license lessons.");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(
+//     `Nia cannot start driving licence lessons. She has to wait another ${yearsLeft} year(s).`
+//   );
+// }
+
+const birthYear = 2013;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
