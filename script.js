@@ -174,3 +174,8 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 
+if(BMIMark > BMIJohn){
+    console.log(`Mark's BMI  is higher than John's`)
+} else {
+    console.log("John's BMI is higher than Mark's")
+}
