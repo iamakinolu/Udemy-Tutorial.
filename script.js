@@ -164,18 +164,38 @@ lines`);
 //   );
 // }
 
-const birthYear = 2013;
+// const birthYear = 2013;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
-console.log(century);
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
 
-if(BMIMark > BMIJohn){
-    console.log(`Mark's BMI  is higher than John's`)
-} else {
-    console.log("John's BMI is higher than Mark's")
-}
+// if(BMIMark > BMIJohn){
+//     console.log(`Mark's BMI  is higher than John's`)
+// } else {
+//     console.log("John's BMI is higher than Mark's")
+// }
+
+// type conversion
+const inputYear  = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(1991), 23);
+
+//type coercion
+console.log('I am ' + 23 + ' years old') 
+console.log('23' -'10' - 3);
+console.log('23' * '2' )
+
+let n = '1' + 1;
+n -= 1;
+console.log(n);
+
