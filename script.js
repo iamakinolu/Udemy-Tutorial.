@@ -198,7 +198,7 @@ console.log("23" * "2");
 let n = "1" + 1;
 n -= 1;
 console.log(n);
-*/
+
 
 // 5 falsy values: 0, '', undefined, null, NaN.
 
@@ -221,3 +221,8 @@ if (height) {
 } else {
   console.log("You are exitentialy short!");
 }
+*/
+
+const age = 18;
+if(age === 18) console.log('You just becne an adult! :)');
+
