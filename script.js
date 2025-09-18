@@ -59,7 +59,7 @@ console.log(typeof year);
 console.log(typeof null);
 
 
-let age = 30;
+let age = 30; 
 age = 31;
 
 const birthYear = 1991;
@@ -69,7 +69,7 @@ const birthYear = 1991;
 var job = 'programmer';
 job = "teacher";
 
-lastName = "Aina";
+lastName = "Aina";x 
 console.log(lastName);
 
 
@@ -160,7 +160,7 @@ lines`);
 // } else {
 //   const yearsLeft = 18 - age;
 //   console.log(
-//     `Nia cannot start driving licence lessons. She has to wait another ${yearsLeft} year(s).`
+//     `Sola cannot start driving licence lessons. She has to wait another ${yearsLeft} year(s).`
 //   );
 // }
 
@@ -223,6 +223,47 @@ if (height) {
 }
 */
 
+// const age = 18;
+// if(age === 18) console.log('You just becne an adult! :)');
+
+// Write a program that solves for x.
+// Given the equation : 5x + 2x = 19.
+
 const age = 18;
-if(age === 18) console.log('You just becne an adult! :)');
+if (age === 18) console.log("You just became an adult ");
+
+if (age == 18) console.log("You just became an adult (loose)");
+
+const favourite = Number(prompt("What is your favourite number"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  // '23' == 23
+  console.log("Cool! 23 is an amazing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number");
+} else if (favourite === 9) {
+  console.log('9 is also a cool number')
+} else {
+  console.log("Number is not 23 or 7 or 9.");
+}
+
+if(favourite !== 23) console.log('Why not 23?')
+const checkequality = [a, b]
+if(a = b)
+  console.log("Loose match")
+
+// Write a function checkEquality(a, b) that:
+
+// returns "Loose match" if a == b but not a === b,
+
+// returns "Strict match" if both a === b,
+
+// returns "No match" otherwise.
+
+// Test it with:
+
+// checkEquality(10, "10"); 
+// checkEquality(5, 5); 
 
