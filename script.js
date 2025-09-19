@@ -229,30 +229,30 @@ if (height) {
 // Write a program that solves for x.
 // Given the equation : 5x + 2x = 19.
 
-const age = 18;
-if (age === 18) console.log("You just became an adult ");
+// const age = 18;
+// if (age === 18) console.log("You just became an adult ");
 
-if (age == 18) console.log("You just became an adult (loose)");
+// if (age == 18) console.log("You just became an adult (loose)");
 
-const favourite = Number(prompt("What is your favourite number"));
-console.log(favourite);
-console.log(typeof favourite);
+// const favourite = Number(prompt("What is your favourite number"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-if (favourite === 23) {
-  // '23' == 23
-  console.log("Cool! 23 is an amazing number!");
-} else if (favourite === 7) {
-  console.log("7 is also a cool number");
-} else if (favourite === 9) {
-  console.log('9 is also a cool number')
-} else {
-  console.log("Number is not 23 or 7 or 9.");
-}
+// if (favourite === 23) {
+//   // '23' == 23
+//   console.log("Cool! 23 is an amazing number!");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log('9 is also a cool number')
+// } else {
+//   console.log("Number is not 23 or 7 or 9.");
+// }
 
-if(favourite !== 23) console.log('Why not 23?')
-const checkequality = [a, b]
-if(a = b)
-  console.log("Loose match")
+// if(favourite !== 23) console.log('Why not 23?')
+// const checkequality = [a, b]
+// if(a = b)
+//   console.log("Loose match")
 
 // Write a function checkEquality(a, b) that:
 
@@ -264,6 +264,100 @@ if(a = b)
 
 // Test it with:
 
-// checkEquality(10, "10"); 
-// checkEquality(5, 5); 
+//
+
+// // if(hasDriverslicence && hasGoodVision){
+// //   console.log('Sarah is able to drive!');
+// // } else {
+// //   console.log('Someone else should drive...');
+// // }
+
+// const isTired = false; // c
+// console.log(hasDriverslicence || hasGoodVision || isTired);
+
+// if(hasDriverslicence && hasGoodVision && !isTired){
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+//Challenge #3
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+
+// if (scoreDolphins > scoreKoalas) {
+//   console.log("Dolphins win the trophy");
+// } else if (scoreDolphins > scoreKoalas) {
+//   console.log("Koalas win the trophy");
+// } else if(scoreDolphins === scoreKoalas) {
+//     console.log("Both win the trophy")
+// };
+
+// const day = "Thursday";
+
+// switch (day) {
+//   case "Monday": // day === 'monday;
+//     console.log("Plan my course structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "Tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "Wednesday":
+//   case "Thursday":
+//     console.log("Write code examples");
+//     break;
+//   case "Friday":
+//     console.log("Record videos");
+//     break;
+//   case "Saturday":
+//   case "Sunday":
+//     console.log('Enjoy the weekend')
+//     break;
+//     default:
+//       console.log('Not a valid day!')
+// }
+
+// const day = "Saturday";
+
+// if (day === "Monday") {
+//   console.log("Plan my course structure");
+// } else if (day === "Tuesday") {
+//   console.log("Prepare theory videos");
+// } else if (day === "Wednesday" || day === "Thursday") {
+//   console.log("Write code examples");
+// } else if (day === "Friday") {
+//   console.log("Record videos");
+// } else if (day === "Saturday" || day === "Sunday") {
+//   console.log("Enjoy the weekend!");
+// } else {
+//   console.log("Not a valid day");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
